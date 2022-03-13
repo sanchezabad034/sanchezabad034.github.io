@@ -77,7 +77,7 @@ body{
   .ima_form .king{
     position: absolute;
     margin-top: -290px;
-    margin-left: 105px;
+    margin-left: 180px;
     width: 1000px;
   }
 
@@ -85,13 +85,13 @@ body{
     position: absolute;
     width: 1000px;
     margin-top: -240px;
-    margin-left: -150px;
+    margin-left: -65px;
   }
   .ima_form .right{
     position: absolute;
     width: 1000px;
     margin-top: -240px;
-    margin-left:327px;
+    margin-left:400px;
   }
 
 .login-page {
@@ -99,7 +99,7 @@ body{
     height: 450px;
     padding: 8% 0 0;
     margin: auto;
-    margin-left: 400px;
+    margin-left: 480px;
   }
   .form {
     position: relative;
