@@ -37,7 +37,7 @@ body{
 .w2{
     animation: w2 7s linear -.125s infinite, desplazamiento 7s ease -.125s infinite; 
     opacity: 0.5;
-}
+} 
 
 @keyframes w1{
     0%{
@@ -69,13 +69,37 @@ body{
 
 
 /*Start login*/
+.form h2  {
+  margin-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .ima_form .king{
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 105px;
+    width: 1000px;
+  }
+
+  .ima_form .left{
+    position: absolute;
+    width: 1000px;
+    margin-top: -240px;
+    margin-left: -150px;
+  }
+  .ima_form .right{
+    position: absolute;
+    width: 1000px;
+    margin-top: -240px;
+    margin-left:327px;
+  }
 
 .login-page {
     width: 460px;
     height: 450px;
     padding: 8% 0 0;
     margin: auto;
-    margin-left: 470px;
+    margin-left: 400px;
   }
   .form {
     position: relative;
@@ -161,5 +185,23 @@ body{
     color: #EF3B3A;
   }
 
+  /*Texto JARS*/
+  .text_JARS {
+    position: absolute;
+    margin-left: -1050px;
+    margin-bottom: 495px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .text_JARS a{
+    text-decoration: none;
+    color:#f2f2f2;
+  }
+
+  .text_JARS a:hover{
+    color: #4d4d4d;
+    transition: 0.7s;
+  }
   
 

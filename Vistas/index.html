@@ -2,13 +2,14 @@
 
     <html lang = "es">
         <head>
-            <meta name = "viewport" content = "width=device-width, initial-scale= 1.0">
+            <meta name = "viewport" content = "width=device-width,initial-scale= 1.0">
             <meta charset="UTF-8"> 
             <meta name="copyright" content="© JARS 2021">
             <title>JARS</title>
             <link href="../Public/CSS/styles.css" rel="stylesheet">
             <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
             <script src="https://kit.fontawesome.com/7341bf109b.js" crossorigin="anonymous"></script>
+            <link rel="shortcut icon" href="../Public/img/fav-icon.jpg">
         </head>
         <body>
             <!--Incio del desarrollo de la pagina web-->
@@ -18,17 +19,22 @@
                     <div class="contenedor">
                         <h1>JARS</h1>
                         <nav class="nav">
-                            <a href="../Vistas/PG.html">PAGINAS DE MUESTRA</a>
-                            <a href="../Vistas/contacto.html">CONTACTO</a>
-                            <a href="../Vistas/registrarte.html">REGISTRARTE</a>
-                            <a href="../Vistas/login.html">INICIAR SESIÓN</a>
+                            <button class="btn-menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <ul class="nav-menu">
+                               <li class="menu-item"><a class = "nav-menu-link" href="../Vistas/PG.html">PAGINAS DE MUESTRA</a></li>
+                               <li class="menu-item"><a class = "nav-menu-link" href="../Vistas/contact.html">CONTACTO</a></li>
+                               <li class="menu-item"><a class = "nav-menu-link" href="../Vistas/sing_up.html">REGISTRARTE</a></li>
+                                <li class="menu-item"><a class = "nav-menu-link" href="../Vistas/login.html">INICIAR SESIÓN</a></ul>
+                            </ul>
                         </nav>
                     </div>
                 </div>
                 <section class = "banner contenedor">
                     <section class = "banner_title">
                         <h2>¿Buscas el tener la mejor pagina web para tu negocio?</h2>
-                        <a href="../Vistas/contacto.html" class="contactanos">CONTACTANOS</a>
+                        <a href="../Vistas/contact.html" class="contactanos">CONTACTANOS</a>
                     </section>
                     <div class="banner_img">
                         <img src="../Public/img/HEADER_5.png" alt="imagen_banner">
@@ -128,9 +134,9 @@
                     <!--Contenedor 3-->
                     <div class="box__footer" data-aos="flip-up">
                         <h2>REDES SOCIALES</h2>
-                        <a href="#"><i class="fa-brands fa-facebook-square"></i>FACEBOOK </a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i>INSTAGRAM</a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i>TWITTER</a>
+                        <a href="#">FACEBOOK<i class="fa fa-facebook"></i></a>
+                        <a href="#">INSTAGRAM<i class="fa fa-instagram"></i></a>
+                        <a href="#">TWITTER <i class="fa fa-twitter"></i></a>
                     </div>
                 
                 </div>
@@ -143,6 +149,7 @@
             </footer>
             
             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script src="../Public/JS/styles.js"></script>
             <script>
                 AOS.init();
             </script>

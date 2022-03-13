@@ -31,6 +31,17 @@ body{
     left:0; 
 }
 
+.btn-menu{
+    color:white;
+    background: none;
+    border:none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+
+    display: none;
+}
+
 .header_nav .contenedor{
     display: flex;
     justify-content: space-between;
@@ -42,6 +53,11 @@ body{
     color: #fff; 
     font-family: 'Open Sans', sans-serif;
     font-size: 40px; 
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
 }
 
 .header_nav nav a{
@@ -56,7 +72,6 @@ body{
 .header_nav a:hover{
     background-color: #00BFFF;
     color: #FFF;
-    *opacity: 0.5;
     transition: 0.7s; 
 }
 .banner{
@@ -263,7 +278,7 @@ body{
     display: flex;
     max-width: 1100px;
     padding-top: 50px;
-   margin-left:120px ;
+   margin-left:87px ;
 }
 
 .card{
@@ -381,4 +396,60 @@ footer{
     background-color: #fff;
 }
 
-/*Animación de burbujas*/
+/*Responsive*/
+@media screen and (max-width:1075px) {
+    .container_card{
+        margin-left:9px;
+    }
+}
+@media screen and (max-width: 1064px) {
+    .banner_title h2{
+        font-size: 25px;
+    }
+    .banner_title img{
+        width: 250xpx;
+    }
+    .container_card{
+     margin-left: -2px; 
+    }
+}
+
+@media (max-width:760px) {
+    .header_nav .contenedor a{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+    }
+    
+    .header_nav h1{
+        color: #fff; 
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px; 
+    }
+    
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        position:fixed;
+        background-color: #000000;
+        left:0;
+        top: 60px;
+        padding: 0;
+        width: 100%;
+        
+        left: 100%;
+        transition: left 0.5s;
+    }
+
+    .btn-menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-menu_visible{
+        left: 0;
+    }
+}
+
