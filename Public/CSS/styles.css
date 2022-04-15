@@ -335,8 +335,8 @@ footer{
     *background-image: url(../img/background-footer.svg);
     *background-size: cover;
     background: linear-gradient(to right, #005C98, #505BDA);
-    -webkit-mask-image:url(../img/background-footer.svg);
-    mask-image:url(../img/background-footer.svg);
+    *-webkit-mask-image:url(../img/background-footer.svg);
+    *mask-image:url(../img/background-footer.svg);
     -webkit-mask-size:cover;
     mask-size:cover;
 }
@@ -349,6 +349,7 @@ footer{
     max-width:1200px; 
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .box__footer{
@@ -359,6 +360,7 @@ footer{
 
 .box__footer .logo img{
     width: 180px; 
+    margin-top: -36px;
 }
 .box__footer .terms{
     max-width: 350px;
@@ -366,6 +368,7 @@ footer{
     font-weight: 500;
     color: #fff;
     font-size: 18px; 
+   
 }
 
 .box__footer h2{
@@ -470,33 +473,9 @@ footer{
         font-size: 25px; 
     }
     
-    .nav-menu{
-        flex-direction: column;
-        align-items: center;
-        margin-right: 20px;
-        position:fixed;
-        background:linear-gradient(to right, #005C98, #505BDA);
-        left:0;
-        top: 0;
-        z-index: 10;
-        padding: 0;
-        width: 100%;
-        height: 550px;
-        transition: left 1s ;
-        display: none;
-    }
+    
     nav .menu-item{
         margin-top: 50px;
-    }
-    nav .closeMenu {
-        display: block;
-        position: absolute;
-        top:20px;
-        right: 20px;
-   }
-
-    .btn-menu{
-        display: block;
     }
 
     .logo_pagina{

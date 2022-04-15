@@ -1,45 +1,39 @@
-<!DOCTYPE html lang = "es">
-<html>
+<!DOCTYPE html >
+<html lang = "es">
     <head>
             <meta name = "viewport" content = "width=device-width, initial-scale= 1.0">
             <meta charset="UTF-8"> 
             <meta name="copyright" content="© JARS 2021">
             <link rel="shortcut icon" href="../Public/img/fav-icon.jpg">
             <link rel="stylesheet" href="../Public/CSS/contact.css">
-            <title>LOGIN JARS</title>
+            <title>CONTACTO JARS</title>
     </head>
     <body>
-        <!--INICIO FONDO DEL LOGIN-->
+        <!--INICIO FONDO DEL contact-->
         <div class="bg_color"></div>
         <div class="wave w1"></div>
         <div class="wave w2"></div>
         <!--FIN DEL LOGIN-->
         <!--INICIO DEL FORMULARIO-->
-        <div class="text_JARS">
-          <h1><a href="../Vistas/index.html">JARS</a></h1>
-        </div>
-        <!--Imagenes leon-->
-        <div class="ima_form">
-          <img src="../Public/img/Logo_corona.png" alt="Corona" class="king">    
-          <img src="../Public/img/LEFT.png" alt="Left" class="left">
-          <img src="../Public/img/RIGHT.png" alt="Logo_right" class="right">
-        </div>
-        <!--Fin imagenes-->
-        <div class="login-page">
-            <div class="form">
-              <h2>Contactanos</h2>
-              <form class="login-form">
-                <input type="text" placeholder="Correo electronico"/>
-                <input type="password" placeholder="Nombre completo"/>
-                <input type="text" placeholder="Fecha de nacimiento aaaa/mm/dd">
-                <input type="text" placeholder="Descripción">
-                <button>Iniciar sesion</button>
-                <p class="message"><a href="#">¿No tienes cuenta?</a></p>
-              </form>
-            </div>
-          </div>
-        <!--FIN DEL FORMULARIO-->
+        <form class="form" action="https://formspree.io/f/xbjwzzya" method="POST">
+          <div class="form__container">
+            <h2 class="form__title">Contáctame</h2>
+            <input type="text" class="form__input" placeholder="Nombre:" name="name" id="form_name">
+            <input type="email" class="form__input" placeholder="Email:" name="email" id="form_email">
+            <textarea class="form__input form__input-message" placeholder="Mensaje: " name="message" id="message_form"></textarea>
 
+            <input type="submit" value="Enviar" class="form_cta">
+          </div>
+        </form>
+        <!--FIN DEL FORMULARIO-->
         
+        <!--Para regresar-->
+        <div class="textjars">
+          <h1>
+            <a href="../Vistas/index.html">JARS</a>
+          </h1>
+        </div>
+        
+        <script src="../Public/JS/styles.js"></script>
     </body>
 </html>
