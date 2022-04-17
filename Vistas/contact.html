@@ -15,14 +15,14 @@
         <div class="wave w2"></div>
         <!--FIN DEL LOGIN-->
         <!--INICIO DEL FORMULARIO-->
-        <form class="form" action="https://formspree.io/f/xbjwzzya" method="POST">
+        <form class="form" action="./send.php" method="POST" id="form">
           <div class="form__container">
             <h2 class="form__title">Contáctame</h2>
-            <input type="text" class="form__input" placeholder="Nombre:" name="name" id="form_name">
-            <input type="email" class="form__input" placeholder="Email:" name="email" id="form_email">
-            <textarea class="form__input form__input-message" placeholder="Mensaje: " name="message" id="message_form"></textarea>
+            <input type="text" class="form__input" placeholder="Nombre:"  id="form_name" name="name" required>
+            <input type="email" class="form__input" placeholder="Email:"  id="form_email" name="email" required>
+            <textarea class="form__input form__input-message" placeholder="Mensaje: " name="text" id="message_form" required></textarea>
 
-            <input type="submit" value="Enviar" class="form_cta">
+            <input type="submit" value="Enviar" class="form_cta" id="upload">
           </div>
         </form>
         <!--FIN DEL FORMULARIO-->
@@ -34,6 +34,6 @@
           </h1>
         </div>
         
-        <script src="../Public/JS/styles.js"></script>
+        <script src="../Public/JS/contactValidation.js"></script>
     </body>
 </html>

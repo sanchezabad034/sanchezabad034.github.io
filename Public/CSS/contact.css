@@ -140,13 +140,42 @@ body{
       transition: 0.7s; 
   }
 
+
+  /*Estilos pagina de respuesta*/
+  .text__send{
+      text-transform: uppercase;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 1em;
+  }
+
+  .text__send a{
+      text-decoration: none;
+      color: black; 
+      margin-top: 1em;
+  }
+
+  .text__send h1{
+      padding: 10px 0; 
+  }
   
+  .form_button{
+    background-color: #089FE0;
+    color:#fff; 
+    border: none; 
+    font-weight: 400;
+    font-size: 1rem;
+    padding: .7em .2em;
+    border-radius: .2em;
+    cursor: pointer;
+  }
 @media(max-width:400px){
     .form{
         padding: 3.5em 1em;
     }
 }
  
+
   
   
 
