@@ -1,12 +1,12 @@
 <?php
+     //datos para el correo
+     $destinatario = 'jarscotact@gmail.com'; 
+     $asunto = 'Contacto JARS'; 
+
      //llamando los campos
-     $nombre = $_POST['nombre']; 
+     $nombre = $_POST['name']; 
      $email = $_POST['email']; 
      $text = $_POST['text']; 
-
-     //datos para el correo
-     $destinatario = "jarscotact@gmail.com"; 
-     $asunto = "Contacto JARS"; 
 
      $carta = "De: $nombre \n"; 
      $carta.="Correo: $email \n"; 
