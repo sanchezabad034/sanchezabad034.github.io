@@ -13,6 +13,7 @@
      $carta.="Mensaje: $text"; 
 
      //Enviar correo
-     mail($destinatario, $asunto, $carta);
-     header('Location:send-text.html');
+     header('Location:sendtext.html');
+     mail($destinatario, $asunto, $carta, $header);
+     
 ?>
