@@ -3,7 +3,7 @@
         <head>
             <meta name = "viewport" content = "width=device-width,initial-scale= 1.0">
             <meta charset="UTF-8"> 
-            <meta name="copyright" content="© JARS 2021">
+            <meta name="copyright" content="&copy; JARS 2021">
             <title>JARS</title>
             <link href="../Public/CSS/styles.css" rel="stylesheet">
             <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -26,13 +26,51 @@
                         </nav>
                     </div>
                 </div>
-                <section class = "banner contenedor">
-                    <section class = "banner_title">
-                        <h2>¿Buscas el tener la mejor pagina web para tu negocio?</h2>
-                        <a href="../Vistas/contact.html" class="contactanos">CONTACTANOS</a>
-                    </section>
-                    <div class="banner_img">
-                        <img src="../Public/img/HEADER_5.png" alt="imagen_banner">
+                <!--Header content-->
+                <section class="slider">
+                    <div class="slider_container container">
+                        <i class="fa fa-arrow-left" id="Left" class="left-arrow"></i>
+                        <!--Section img slider 1-->
+                        <section class="slider__body slider__body--show" data-id="1">
+                            <div class="slider__text">
+                                <h2 class="subtitle">Bienvenidos a JARS</h2>
+                                <P class="rewie">
+                                    ¿Buscas el tener la mejor pagína web o aplicación móbile para tu negocio?
+                                </P>
+                            </div>
+                                <figure class="slider__picture">
+                                    <img src="../Public/img/header.png" class="slider__img">
+                                </figure>
+                        <!--Section img slider 2-->
+                        </section>
+                        <section class="slider__body" data-id="2">
+                            <div class="slider__text">
+                                <h2 class="subtitle">Creación de paginas web y aplicaciones móbiles</h2>
+                                <P class="rewie">
+                                    Estas listo para lograr tener la pagina web de tus sueño o aplicacione mobile que tanto soñaste.
+                                </P>
+                            </div>
+                                <figure class="slider__picture">
+                                    <img src="../Public/img/MOBLIE.png" class="slider__img">
+                                </figure>
+                            
+                        </section>
+                         <!--Section img slider 3-->
+                        <section class="slider__body" data-id="3">
+                            <div class="slider__text">
+                                <h2 class="subtitle">Preparate para la aventura</h2>
+                                <P class="rewie">
+                                    Personalización 100% para tu pagina web adaptable a como siempre has querido
+                                </P>
+                            </div>
+                                <figure class="slider__picture">
+                                    <img src="../Public/img/HEADER_5.png" class="slider__img">
+                                </figure>
+                            
+                        </section>
+
+
+                        <i class="fa fa-arrow-right" id="right" class="right_arrow"></i>
                     </div>
                 </section>
                 <!--Animacion burbuja-->
@@ -55,9 +93,9 @@
              <section class="quienes_somos">
                 <div class="conocenos_container">
                     <div class="textos" >
-                            <h1 >¿Quienes somos?</h1>
-                            <br><br><br>
-                            <p>Somos una empresa desarrollada en 2021 con la finalidad de crear paginas web para pequeños negocios y empresas, que buscan crecer, obteniendo lo que tu sueñes y lo que gustes para tu pagina web</p>
+                            <h1>¿Quienes somos?</h1>
+                            <br>
+                            <p>Somos una empresa desarrollada en 2021 con la finalidad de crear paginas web y aplicaciones móbiles para pequeños negocios y empresas, que buscan crecer, obteniendo tus sueñes para que cumplas tus metas.</p>
 
                             <div>
                                 <img src = "../Public/img/Logo-removebg-preview.png" alt = "logo_animacion" class = "logo_pagina" data-aos="flip-left"
@@ -74,15 +112,7 @@
             </div>
             <div class="container_card">
                 
-                <div class="card">
-                    <figure>
-                        <img src="../Public/img/CARTA_1.png" alt="Carta_1">
-                        <div class="contenido">
-                            <h3>OFRECEMOS CALIDAD</h3>
-                            <p>OFRECEMOS LAS MEJOR CALIDAD EN CADA UNO DE NUESTROS DISEÑOS LOGRANDO QUE PUEDAS OBTENER TU PAGINA WEB DE UNA MANERA IMPRESIONANTE</p>
-                        </div>
-                    </figure>
-                </div>
+               
                 <!--TARJETA 2-->
                 <div class="card">
                     <figure>
@@ -98,8 +128,19 @@
                     <figure>
                         <img src="../Public/img/CARD_3-removebg-preview.png" alt="Carta_1">
                         <div class="contenido">
-                            <h3>ESTAMOS CAPACITADOS PARA CUMPLIR TUS SUEÑOS</h3>
-                            <p>ESTAMOS CAPACITADOS PARA HACER QUE TU PAGINA WEB SEA LO QUE SIEMPRE SOÑASTE</p>
+                            <h3>CONSTRUCCIÓN DE PAGINAS WEB PERSONALIZADAS O PLANTILLAS</h3>
+                            <p>ESTAMOS CAPACITADOS PARA DESARROLLAR LA PAGINA WEB DE TUS SUEÑOS</p>
+                        </div>
+                    </figure>
+                </div>
+
+                 <!--TARJETA 4-->
+                 <div class="card">
+                    <figure>
+                        <img src="../Public/img/MOBLIE.png" alt="Carta_1">
+                        <div class="contenido">
+                            <h3>CONSTRUCCIÓN DE APLICACIONES MÓBILES</h3>
+                            <p>ESTAMOS CAPACITADOS PARA DESARROLLAR LA APLICACIÓN MOBILE DE TUS SUEÑOS.</p>
                         </div>
                     </figure>
                 </div>
@@ -129,16 +170,16 @@
                     <!--Contenedor 3-->
                     <div class="box__footer" data-aos="flip-up">
                         <h2>REDES SOCIALES</h2>
-                        <a href="#"> FACEBOOK <i class="fa fa-facebook"></i></a>
-                        <a href="#"> INSTAGRAM <i class="fa fa-instagram"></i></a>
-                        <a href="#"> TWITTER <i class="fa fa-twitter"></i></a>
+                        <a href="#"> <i class="fa fa-facebook"></i> FACEBOOK </a>
+                        <a href="#"> <i class="fa fa-instagram"></i> INSTAGRAM </a>
+                        <a href="#"> <i class="fa fa-twitter"></i> TWITTER </a>
                     </div>
                 
                 </div>
                 <div class="box_copyright">
                     <hr>
                     <p>
-                        TODOS LOS DERECHOS RESERVADOS  © 2021 JARS
+                        TODOS LOS DERECHOS RESERVADOS &copy; 2021 JARS
                     </p>
                 </div>
             </footer>

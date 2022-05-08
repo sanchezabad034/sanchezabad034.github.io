@@ -13,7 +13,8 @@
      $carta.="Mensaje: $text"; 
 
      //Enviar correo
-     header('Location:sendtext.html');
-     mail($destinatario, $asunto, $carta, $header);
+     echo Console::log('un_nombre', $nombre);
+     header('Location:Vistas/sendtext.html');
+     mail($destinatario, $asunto, $carta);
      
 ?>

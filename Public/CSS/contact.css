@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 *{
     padding: 0%; 
     margin:0; 
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -165,10 +167,20 @@ body{
     border: none; 
     font-weight: 400;
     font-size: 1rem;
-    padding: .7em .2em;
+    padding: .7em .2em; 
     border-radius: .2em;
     cursor: pointer;
+    margin-top: 2em;
   }
+
+  .contenedor_icon{
+    width: 3em;
+    height: 3em;
+    margin-left: 11em;
+    background-color: #089FE0;
+  }
+  
+
 @media(max-width:400px){
     .form{
         padding: 3.5em 1em;
