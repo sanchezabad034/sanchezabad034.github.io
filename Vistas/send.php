@@ -1,20 +1,18 @@
 <?php
-     //datos para el correo
-     $destinatario = 'jarscotact@gmail.com'; 
-     $asunto = 'Contacto JARS'; 
-
-     //llamando los campos
-     $nombre = $_POST['name']; 
-     $email = $_POST['email']; 
-     $text = $_POST['text']; 
-
-     $carta = "De: $nombre \n"; 
-     $carta.="Correo: $email \n"; 
-     $carta.="Mensaje: $text"; 
-
-     //Enviar correo
-     echo Console::log('un_nombre', $nombre);
-     header('Location:Vistas/sendtext.html');
-     mail($destinatario, $asunto, $carta);
+ if(isset($_POST['send'])){
+      if(!empty($_POST['name'] && !empty($_POST['email']) && !empty($_POST['text']))){
+          $nombre = $_POST['name']; 
+          $email = $_POST['email']; 
+          $text = $_POST['text']; 
+          $header = "FROM: jarscotact@gmail.com" . "\r\n";
+          $header = "Reply-to: jarscotact@gmail.com". "\r\n";
+          $header = "X-Mailer: PHP/" .phpversion();
+          header('Location:sendtext.html');
+          $mail= mail($nombre, $email, $text, $header); 
+          if($mail){
+               echo "<h4>Mensaje enviado exitosamente!</h4>";
+          }
+      }
+ }   
      
 ?>
