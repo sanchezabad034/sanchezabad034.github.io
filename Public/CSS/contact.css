@@ -173,12 +173,7 @@ body{
     margin-top: 2em;
   }
 
-  .contenedor_icon{
-    width: 3em;
-    height: 3em;
-    margin-left: 11em;
-    background-color: #089FE0;
-  }
+  
   
 
 @media(max-width:400px){
