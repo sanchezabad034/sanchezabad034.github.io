@@ -7,11 +7,8 @@
           $header = "FROM: jarscotact@gmail.com" . "\r\n";
           $header = "Reply-to: jarscotact@gmail.com". "\r\n";
           $header = "X-Mailer: PHP/" .phpversion();
-          header('Location:./sendtext.html');
+          $header('Location:../sendtext.html');
           $mail= mail($nombre, $email, $text, $header); 
-          if($mail){
-               echo "<h4>Mensaje enviado exitosamente!</h4>";
-          }
       }
  }   
      

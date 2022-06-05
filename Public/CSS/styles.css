@@ -3,11 +3,11 @@
     padding: 0; 
     margin:0; 
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 .contenedor{
@@ -54,7 +54,7 @@ body{
 
 .header_nav h1{
     color: #fff; 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 40px; 
 }
 
@@ -85,6 +85,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
+    margin-top:-3em;
 }
 
 .slider{
@@ -96,6 +97,8 @@ body{
     grid-template-columns: 50px 1fr 50px;
     align-items:center;
     gap: 1em;
+    
+    
 }
 
 .slider__body{
@@ -107,6 +110,8 @@ body{
     grid-template-columns: 1fr max-content;
     align-items: center;
     transition: opacity 1.5s;
+
+
 }
 
 .slider__body--show{
@@ -135,26 +140,12 @@ body{
     object-fit: cover;
     margin: 0 auto;
     display:block;
-
+    
     animation: movimiento 2.5s linear infinite;
+    
 }
 
-.container i{
-    color: #fff;
-    cursor: pointer;
-    font-size: 2em;
-    opacity: 0.2;
-}
 
-.container i:hover{
-    color:#fff;
-    opacity: 10;
-    transition: 2s;
-}
-
-.container i:nth-of-type(2){
-    justify-self:end;
-}
 
 
 /*Resposive header*/
@@ -166,17 +157,59 @@ body{
     }
 
     .slider__picture{
+        margin-bottom: 2em;
         grid-row: 1/2;
     }
     .slider__img{
         width: 210px;
         height: 210px;
     }
+    .nav a{
+        padding-top:1em;
+    }
+    .contenedor h1{
+        padding-top:2em;
+    }
 }
+
+@media(max-width:457px){
+    .nav a{
+        font-size:14px;
+    }
+    .quienes_somos{
+        column-count: 1;
+        column-gap: 1em;
+        height:250px;
+        
+    }
+    .quienes_somos{
+        width: 100%;
+    }
+    .conocenos_container img{
+       margin-top:35px;
+        
+        width: 80px;
+        height: 80px;
+    }
+
+    .textos p{
+        font-size: 10px;
+        margin-top:-2em;
+        
+    }
+    .textos h1{
+        margin-top:10px;
+        font-size:11px;
+        margin-top:-2.5em;
+        margin-left:100px;
+    }
+}
+
 @media(max-width:425px){
     .slider__container{
-        grid-template-columns: 25px 1fr 25px;
+        grid-template-columns: 1fr;
         grid-template-rows: max-content 1fr;
+        gap:1em;
     }
 
     .container i{
@@ -196,6 +229,38 @@ body{
         font-size: 1rem;
         line-height: 1.6;
     }
+    .nav a{
+        font-size: 14px;
+        margin-top:15px;
+    }
+    .quienes_somos{
+        column-count: 1;
+        column-gap: 1em;
+        height:250px;
+        
+    }
+    .quienes_somos{
+        width: 100%;
+    }
+    .conocenos_container img{
+       margin-top:40px;
+        
+        width: 80px;
+        height: 80px;
+    }
+
+    .textos p{
+        font-size: 10px;
+        margin-top:-2em;
+        
+    }
+    .textos h1{
+        margin-top:10px;
+        font-size:11px;
+        margin-top:-2.5em;
+        margin-left:100px;
+    }
+
 }
 
 /*Efecto burbuja*/
@@ -550,7 +615,7 @@ footer{
     
     .header_nav h1{
         color: #fff; 
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Arial', sans-serif;
         font-size: 25px; 
     }
     
