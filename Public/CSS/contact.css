@@ -141,6 +141,138 @@ body{
       color:rgb(68, 68, 68);
       transition: 0.7s; 
   }
+  @media(max-width:851px){
+    .textjars{
+        margin-right: -19em;
+        top:1em;
+    }
+    .wave{
+        top:-50px;
+    }
+  }
+  @media(max-width:877px){
+    .textjars{
+        margin-right: -19em;
+        top:1em;
+    }
+    .wave{
+        top:-50px;
+    }
+  }
+  @media(max-width:895px){
+    .textjars{
+        margin-right: -19em;
+        top:1em;
+    }
+    .wave{
+        top:-50px;
+    }
+  }
+  @media(max-width:899px){
+    .textjars{
+        margin-right: -19em;
+        top:1em;
+    }
+    .wave{
+        top:-50px;
+    }
+  }
+  @media(max-width:901px){
+    .textjars{
+        margin-right: -19em;
+        top:1em;
+    }
+    .wave{
+        top:-50px;
+    }
+  }
+  @media(max-width:905px){
+    .textjars{
+        margin-right: -19em;
+        top:1em;
+    }
+    .wave{
+        top:-50px;
+    }
+  }
+  @media(max-width:980px){
+    .textjars{
+        margin-right: -19em;
+        top:1em;
+    }
+    .wave{
+        top:-50px;
+    }
+  }
+  @media(max-width:1280px){
+    .textjars{
+        margin-right: -19em;
+        top:1em;
+    }
+    .wave{
+        top:-50px;
+    }
+  }
+  @media(max-width:1350px){
+    .textjars{
+        margin-right: -19em;
+        top:1em;
+    }
+    .wave{
+        top:-50px;
+    }
+  }
+  @media(max-width:760px){
+      .textjars{
+          margin-left:0.8em;
+          padding-bottom: 9em;
+          margin-right: 19em;
+      }
+      .wave{
+        top:-50px;
+      }
+      
+  }
+  @media(max-width:789px){
+    .textjars{
+        margin-left:0.8em;
+        padding-bottom: 9em;
+        margin-right: 19em;
+    }
+    .wave{
+        top:-50px;
+    }
+    
+}
+
+  @media(max-width:598px){
+        .textjars{
+            margin-right:14em;
+            margin-left:1em;
+        }
+  }
+
+  @media(max-width:434px){
+        .textjars{
+            margin-right: 12em;
+        }
+  }
+  @media(max-width:394px){
+    .textjars{
+        margin-right: 9em;
+    }
+  }
+  @media(max-width:332px){
+    .textjars{
+        margin-right: 7em;
+    }
+  }
+
+  @media(max-width:270px){
+    .textjars{
+        margin-right: 2em;
+    }
+  }
 
 
   /*Estilos pagina de respuesta*/
