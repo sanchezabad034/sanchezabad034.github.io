@@ -302,7 +302,8 @@ body{
     padding: .7em .2em; 
     border-radius: .2em;
     cursor: pointer;
-    margin-top: 2em;
+    
+    
   }
 
   
@@ -314,7 +315,12 @@ body{
     }
 }
  
-
+.check_img{
+    width:420px;
+    height: 220px;
+    align-items: center;
+    padding-bottom: -10em;
+}
   
   
 
