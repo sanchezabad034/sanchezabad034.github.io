@@ -426,7 +426,7 @@ body{
 
 .logo_pagina{
   width: 550px; 
-  height: 450px;
+  height: 370px;
   align-items: center;
   margin-left: -14px;
 }
@@ -511,7 +511,7 @@ footer{
     *background-image: url(../img/background-footer.svg);
     *background-size: cover;
     background: linear-gradient(to right, #005C98, #505BDA);
-    *-webkit-mask-image:url(../img/background-footer.svg);
+    -webkit-mask-image:url(../img/background-footer.svg);
     *mask-image:url(../img/background-footer.svg);
     -webkit-mask-size:cover;
     mask-size:cover;

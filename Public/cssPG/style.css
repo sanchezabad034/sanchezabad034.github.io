@@ -61,10 +61,12 @@
     background-color:#ACE7F1;
     box-shadow: 0px 1px 12px 5px #17d8ff;
     border-radius: 6px;
+    
 }
 
+
 .nav a{
-    cursor: default;
+    cursor: pointer;
 }
 
 .nav a:hover{

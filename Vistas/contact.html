@@ -15,10 +15,10 @@
         <div class="wave w2"></div>
         <!--FIN DEL LOGIN--> 
         <!--INICIO DEL FORMULARIO-->
-        <form class="form" action="./forms/send.php" method="POST" id="form">
+        <form class="form" action="./forms/send.php" method="POST" id="form" onsubmit="return validations()">
           <div class="form__container">
             <h2 class="form__title">Contáctame</h2>
-            <input type="text" class="form__input" placeholder="Nombre:"  id="form_name" name="name" required>
+            <input type="text" class="form__input" placeholder="Nombre completo:"  id="form_name" name="name" required>
             <input type="email" class="form__input" placeholder="Correo electrónico:"  id="form_email" name="email" required>
             <textarea class="form__input form__input-message" placeholder="Mensaje: " name="text" id="message_form" required></textarea>
 
@@ -35,5 +35,6 @@
         </div>
         
         <script src="../Public/JS/contactValidation.js"></script>
+        <script src="../Public/JS/validations.js"></script>
     </body>
 </html>
