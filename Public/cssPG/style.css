@@ -7,14 +7,19 @@
 }
 
 /*SECTION UPPER*/
-#background{
+#background {
     background-image: url('../imgPG/lava.png');
     width: 100%;
     height: 570px;
     position: relative;
     background-repeat: no-repeat;
     background-position: 50% 250%;
+    background-size: initial;
 }
+/* 
+#background .bg-image{
+
+} */
 
 .upper{
     position: absolute;
@@ -95,18 +100,7 @@
       justify-content: center;
       align-items: center;
       user-select: none;
-      
-      /* animation: cambio 10s infinite; */
     }
-
-     /* @keyframes cambio {
-        0%{ margin-left: 0; }
-        20%{ margin-left: 0; }
-
-        25%{ margin-left: -100%; }
-        45%{ margin-left: -100%; }
-     } */
-
     .carousel .carousel-item img{
       object-fit: cover;
       position: absolute;

@@ -510,7 +510,7 @@ footer{
     padding: 50px 0px;
     *background-image: url(../img/background-footer.svg);
     *background-size: cover;
-    background: linear-gradient(to right, #005C98, #505BDA);
+    background-color: #0b5fbd;
     -webkit-mask-image:url(../img/background-footer.svg);
     *mask-image:url(../img/background-footer.svg);
     -webkit-mask-size:cover;
@@ -520,7 +520,7 @@ footer{
 
 .container_footer{
     display: flex;
-    flex-wrap: wrap;
+    *flex-wrap: wrap;
     justify-content: space-between;
     max-width:1200px; 
     margin: auto;
